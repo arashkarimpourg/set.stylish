@@ -1,0 +1,52 @@
+/* MAIN PAGE */
+/* Adds empty space to top of the page */
+.jumbotron {
+	margin: 100px 0 0 0;
+}
+
+/* Change background using Opera color scheme */
+body, .jumbotron {
+	background-color: #030615;
+}
+
+.footer, .header, hr, .login_inquery, .col-lg-12, .a_upgrade {
+	display: none;
+}
+
+.btn_upgrade {
+	display: none;
+	visibility: hidden;  
+}
+
+.well {
+	background-color: #030615; 
+	color: white;
+}
+
+/* SETTINGS DIALOG */
+/* Colors the text */
+.modal-content {
+	background-color: #252836;
+	color: white;
+	border-radius: 10px;
+}
+
+/* Colors main title */
+.modal-title{
+	color: white;
+	padding: 0px 0px 0px 22px;
+}
+
+/* Colors exit button */
+.close {
+	color: white;
+}
+.close:hover {
+	color: #5021ff;
+}
+
+/* Hides 4x and 8x radio buttons */
+.form-horizontal:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(3),
+.form-horizontal:nth-child(2) > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) {
+	display: none;
+}
